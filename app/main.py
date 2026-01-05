@@ -2,6 +2,7 @@ from __future__ import annotations
 from typing import Dict, List, Optional, Any
 
 class Person:
+    
     people: Dict[str, "Person"] = {}
 
     def __init__(self, name: str, age: int) -> None:
